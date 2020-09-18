@@ -23,7 +23,9 @@
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
 		<link href="bootstrap.min.css" rel="stylesheet" />
 		<link href="style.css" rel="stylesheet" />
-
+		
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -48,6 +50,30 @@
 		 End Inspectlet Embed Code -->
 	</head>
 	<body data-spy="scroll" data-target="#navbar-example">
+<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+	<!--Brand and toggle get grouped for better mobile display-->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
+
+	<!--Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#profile">Profile</a></li>
+			<li><a href="#educations">Education</a></li>
+			<li><a href="#experiences">Experience</a></li>
+			<li><a href="#abilities">Abilities</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+	<!--/.navbar-collapse -->
+</nav>
 
 
 
@@ -59,33 +85,12 @@
 
 			<div class="overlay"></div>
 
-			<a href="#profile" class="scroll-down">
+<!--<a href="#profile" class="scroll-down">
 				<span class="glyphicon glyphicon-chevron-down"></span>
-			</a>
+			</a>-->
 		</div>
 
-		<nav class="navbar navbar-default" id="navbar-example" role="navigation">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#profile">Profile</a></li>
-					<li><a href="#experiences">Education</a></li>
-					<li><a href="#abilities">Abilities</a></li>
-										<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</nav>
+		
 
 		<div class="background-white">
 			<div id="profile" class="container">
@@ -131,7 +136,7 @@
 </div>	-->		</div>
 		</div>
 
-		<div id="experiences" class="container">
+		<div id="educations" class="container">
 			<h2>Education</h2>
 <p class="lead">
 	&ldquo;The roots of education are bitter, but the fruit is sweet.&rdquo;<br />– Aristotle
@@ -146,13 +151,13 @@
 <!--<h3>Educations</h3>
 -->
 
-<div class="experiences">
+<div class="educations">
 
 
 	<div class="experience row">
 		<div class="col-md-4">
 			<h4>University of Massachusetts, Boston</h4>
-			<p class="experience-period">
+			<p class="education-period">
 				January 2019				-
 				Present			</p>
 		</div>
@@ -164,7 +169,7 @@
 									Design, HTML-CSS-JavaScript and also some theorical concepts on Mathematics, Analysis on data, Computer Networks,
 									Computation Theory and many more. </span>
 
-				<span class="experience-details">
+				<span class="education-details">
 					<span class="location">
 						<span class="glyphicon glyphicon-map-marker"></span>
 							Boston, MA, USA			</span>
@@ -174,10 +179,10 @@
 	</div>
 
 
-	<div class="experience row">
+	<div class="education row">
 		<div class="col-md-4">
 			<h4>Gujarat Technological University</h4>
-			<p class="experience-period">
+			<p class="education-period">
 				July 2014 -
 			  June 2018			</p>
 		</div>
@@ -186,7 +191,7 @@
 				<strong>Bachelor of Engineering: Computer Engineering</strong>
 				<span class="hidden-phone">
 					The education was on different areas that include working with SQL, Java-Programming, Android-Studio, JDBC-JVM, Graphic Design, HTML-CSS-JavaScript and also some theorical concepts on Mathematics, Analysis on data, Computer Networks, Computation Theory and many more. 			</span>
-				<span class="experience-details">
+				<span class="education-details">
 					<span class="location">
 						<span class="glyphicon glyphicon-map-marker"></span>
 						Gujarat, India					</span>
@@ -200,10 +205,17 @@
 </div>
 
 
+</div>
 
-<hr />
+	<div class="background-white">
+<div id="experiences" class="container">
+	<h2>Experience</h2>
+	<p class="lead">
+		&ldquo;The roots of education are bitter, but the fruit is sweet.&rdquo;<br />– Aristotle
+	</p>
 
-<h3>Experience</h3>
+	<hr />
+<!--<h3>Experience</h3>-->
 
 
 <div class="experiences">
@@ -344,7 +356,7 @@
 
 		</div>
 
-		<div class="background-white">
+	<div class="background-cream">
 			<div id="abilities" class="container">
 				<h2>Abilities</h2>
 <p class="lead">
@@ -354,7 +366,7 @@
 <hr />
 
 <h3>Skills</h3>
-<!--
+
 <div class="row">
 
 
@@ -547,7 +559,7 @@
 
 </div>
 
--->
+
 
 <hr />
 
@@ -555,7 +567,7 @@
 
 <div class="row">
 
-<!--
+
 	<div class="col-md-6">
 		<ul class="no-bullets">
 
@@ -598,13 +610,13 @@
 
 
 </div>
--->
+
 <hr />
 
 <h3>Tools</h3>
 
 <div class="row">
-<!--
+
 	<div class="col-md-6">
 		<ul class="no-bullets">
 
@@ -1072,7 +1084,7 @@
 	</div>			</div>
 		</div>
 
--->
+
 		<div id="projects" class="container">
 			<h2>Projects</h2>
 <p class="lead">
@@ -1081,7 +1093,7 @@
 
 <hr />
 
-<!--
+
 <div class="row">
 
 
@@ -1156,7 +1168,7 @@
 </div>
 
 		</div>
--->
+
 		<div class="background-gray">
 			<div id="contact" class="container">
 				<h2>Contact</h2>
@@ -1165,7 +1177,7 @@
 </p>
 
 <hr />
-<!--
+
 <div class="row">
 	<div class="col-md-6">
 		<ul class="no-bullets">
@@ -1182,8 +1194,8 @@
 		</ul>
 	</div>
 	<div class="col-md-6">
-		<ul class="no-bullets">-->
-			<!--<li>
+		<ul class="no-bullets">
+			<li>
 				<a href="javascript:void(0);">
 					<span class="icon icon-skype"></span>
 					pascalvgemert				</a>
@@ -1199,15 +1211,15 @@
 	</div>
 </div>
 
-<hr />  -->
+<hr />  
 
-<!--<div class="text-center">
+<div class="text-center">
 	<iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.c633b87376883931e7436b93bb46a699.en.html#_=1452458429192&amp;dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=http%3A%2F%2Fwebcache.googleusercontent.com%2Fsearch%3Fq%3Dcache%3AcRExpd3vwGsJ%3Awww.pascalvangemert.nl%2F%2B%26cd%3D1%26hl%3Den%26ct%3Dclnk%26gl%3Dnl%26lr%3Dlang_nl%257Clang_en&amp;size=m&amp;text=Pascal%20van%20Gemert%20-%20Web%20Developer%20-%20Interactive%20Resume&amp;type=share&amp;url=http%3A%2F%2Fpascalvangemert.nl%2F%3Fref%3Dtwitter&amp;via=pascalvgemert" style="position: static; visibility: visible; width: 62px; height: 20px;" data-url="http://pascalvangemert.nl/?ref=twitter"></iframe>
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 	<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fpascalvangemert.nl%3Fref%3Dfacebook&amp;width=120&amp;height=21&amp;colorscheme=dark&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=143175172374579" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px; height:21px;" allowtransparency="true"></iframe>
 </div>			</div>
-</div> -->
+</div> 
 
 		<div class="modal fade" id="upgrade-dialog" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog">
