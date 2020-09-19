@@ -664,3 +664,19 @@ figure.effect:hover p {
 .picture {
   border-radius: 50%;
 }
+/* new code by shruti*/
+ul#menu li {
+  display: inline;
+}
+
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
