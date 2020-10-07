@@ -52,24 +52,38 @@
 			})();
 		</script>
 		 End Inspectlet Embed Code -->
+
 	</head>
+
 	<body data-spy="scroll" data-target="#navbar-example">
-		<!--new code for test by shruti-->
 		
-		<!-- new code by shruti ends-->
-<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+		<script>
+			window.onscroll = function () { myFunction() };
+
+			var navbar = document.getElementsById("myDIV");
+			
+			function myFunction() {
+				
+					navbar.classList.add("sticky")
+				
+			}
+		</script>
+	
+		
+<nav class="navbar navbar-default sticky" id="navbar-example" role="navigation">
 	<!--Brand and toggle get grouped for better mobile display-->
-	<div class="navbar-header">
+	<!--<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 			<span class="sr-only">Toggle navigation</span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-	</div>
+	</div>-->
 
 	<!--Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse navbar-ex1-collapse">
+
 		<ul class="nav navbar-nav">
 			<li><a href="#profile">Profile</a></li>
 			<li><a href="#educations">Education</a></li>
@@ -78,8 +92,9 @@
 			<li><a href="#projects">Projects</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
-	</div>
+	
 	<!--/.navbar-collapse -->
+	</div>
 </nav>
 
 
@@ -99,7 +114,7 @@
 
 		
 
-		<div class="background-white">
+		<div class="background-img">
 			<div id="profile" class="container">
 				<h2>Profile</h2>
 <p class="lead">I&#039;m a Graduate Student</p>
@@ -171,7 +186,7 @@
 		<div class="col-md-8">
 			<p>
 				<strong>Master of Science: Computer Science</strong>
-				<span class="hidden-phone">
+				<span class="hidden-phone"><br>
 					The education was on different areas that include working with SQL, Java-Programming, Android-Studio, JDBC-JVM, Graphic Design, HTML-CSS-JavaScript and also some theorical concepts on Mathematics, Analysis on data, Computer Networks, Computation Theory and many more. 
 				</span>
 
@@ -214,7 +229,7 @@
 
 </div>
 
-	<div class="background-white">
+	<div class="background-img">
 <div id="experiences" class="container">
 	<h2>Experience</h2>
 	<p class="lead">
@@ -377,11 +392,193 @@
 <div class="row">
 
 
-	<div class="col-md-6">
+	<div class="col-md-4">
 		<ul class="no-bullets">
 
 
-		
+			<li>
+				<span class="ability-title">Bootstrap Framework</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">CSS</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">HTML(5)</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">JSON</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">MySQL</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">PHP</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">XML</span>
+
+			</li>
+			</ul>
+			</div>
+
+<div class="col-md-4">
+	<ul class="no-bullets">
+
+
+			<li>
+				<span class="ability-title"></span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Spring Boot</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">JQuery</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Java</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Javascript</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Python</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">WebGL</span>
+
+			</li>
+
+
+
+		</ul>
+	</div>
+	<div class="col-md-4">
+		<ul class="no-bullets">
+
+
+
+			<li>
+				<span class="ability-title">MVC Pattern</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">R</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Object Orientated Programming</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">SASS / SCSS</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">SEO</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Scrum</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Singleton Pattern</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">UML</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">ReactJS/ React Native</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Node.js</span>
+
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">AngularJS</span>
+
+			</li>
 		</ul>
 	</div>
 
@@ -397,7 +594,7 @@
 <div class="row">
 
 
-	<div class="col-md-6">
+	<div class="col-md-4">
 		<ul class="no-bullets">
 
 
@@ -405,8 +602,11 @@
 				<span class="ability-title">English</span>
 
 			</li>
-
-
+			
+</ul>
+</div>
+<div class="col-md-4">
+	<ul class="no-bullets">
 
 			<li>
 				<span class="ability-title">Hindi</span>
@@ -417,13 +617,13 @@
 
 		</ul>
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-4">
 		<ul class="no-bullets">
 
 
 
 			<li>
-				<span class="ability-title">Gujarati(Native Language)</span>
+				<span class="ability-title">Gujarati</span>
 
 			</li>
 
@@ -442,7 +642,7 @@
 
 <hr />
 
-<h3>Tools</h3>
+<h3>Tools/ Technologies</h3>
 
 <div class="row">
 
@@ -450,7 +650,139 @@
 		<ul class="no-bullets">
 
 
+			<li>
+				<span class="ability-title">FileZilla (8 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Firefox (8 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">MS Office (10+ years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Mac (2 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Notepad++ (8 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Webkit browsers (6 years)</span>
+				
+			</li>
+			<li>
+				<span class="ability-title">SQL Server Management Studio</span>
+
+			</li>
+
+			<li>
+				<span class="ability-title">Windows (8+ years)</span>
 			
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Adobe Fireworks (8 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Atlassian / Jira (2 years)</span>
+				
+			</li>
+
+
+
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<ul class="no-bullets">
+
+
+
+			<li>
+				<span class="ability-title">LaTex (2 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">github (3 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Internet Explore (10 years)</span>
+			
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Android-Studio (4 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">PHP (4 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Sublime Text (3 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Eclipse (5 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Adobe Photoshop (2 years)</span>
+				
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Visual Studio Code (3 years)</span>
+				
+			</li>
+
 
 
 		</ul>

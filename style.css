@@ -35,7 +35,7 @@ h4 {
 h2,
 h3 {
   font-weight: 300;
-  color: #22a39f;
+  color: black;
 }
 h2 {
   font-size: 54px;
@@ -105,8 +105,8 @@ hr {
 }
 
 .jumbotron {
-  background: no-repeat center right fixed url(img/background1.jpg);
-
+  background: no-repeat center right fixed url(img/back2.jpg);
+  height: 750px;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -118,7 +118,7 @@ hr {
   background-size: cover;
 
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background1.jpg', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background1.jpg', sizingMethod='scale');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/back2.jpg', sizingMethod='scale');
 
   margin-bottom: 0px;
   padding: 0px;
@@ -151,16 +151,18 @@ hr {
 }
 .jumbotron .container > * {
   text-align: center;
-  color: #ffffff;
+  /*color: #ffffff;*/
+  color: whitesmoke;
 }
 .jumbotron .container h1 {
   padding-bottom: 20px;
+  font-size: 100px;
   border-bottom: 1px solid #ffffff;
   border-bottom-color: rgba(255, 255, 255, 0.35);
   display: inline-block;
 }
 .jumbotron .container .lead {
-  font-size: 28px;
+  font-size: 40px;
 }
 .jumbotron .scroll-down {
   height: 80px;
@@ -224,7 +226,7 @@ hr {
   text-align: center;
   padding-top: 30px;
   font-weight: 600;
-  color: #ffffff;
+  color: #ffffe0;
 }
 .navbar .nav > li a:hover,
 .navbar .nav > li a:focus {
@@ -233,7 +235,7 @@ hr {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  background: #22a39f;
+  background: #696969;
   color: #ffffff;
 }
 .navbar-default .navbar-toggle:hover .icon-bar,
@@ -245,9 +247,39 @@ hr {
   position: fixed;
   top: 60px;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .background-white {
   background: #ffffff;
+}
+.background-img {
+  background: no-repeat center right fixed url(img/try.png);
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.background-img1 {
+  background: no-repeat center right url(img/try2.png);
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .background-cream {
   background: #f3efe0;
@@ -282,7 +314,7 @@ hr {
   margin-top: 6px;
 }
 #experiences .experience .experience-details * {
-  color: #22a39f;
+  color: #696969;
 }
 #experiences .experience .experience-details .seperator {
   color: #bcbcbc;
@@ -301,7 +333,7 @@ hr {
   margin-top: 6px;
 }
 #educations .education .education-details * {
-  color: #22a39f;
+  color: #696969;
 }
 #educations .education .education-details .seperator {
   color: #bcbcbc;
@@ -331,7 +363,7 @@ hr {
   transition: all 0.3s;
 }
 #abilities ul > li .ability-score .glyphicon.filled {
-  color: #22a39f;
+  color: #696969;
 }
 
 #abilities ul > li:hover .ability-score .glyphicon {
@@ -411,7 +443,7 @@ hr {
   width: 100%;
 }
 #projects figure .icon {
-  background: #22a39f;
+  background: #696969;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -589,7 +621,7 @@ hr {
 /*---------------*/
 
 figure.effect {
-  background: #22a39f;
+  background: #696969;
   color: #fff;
 }
 
